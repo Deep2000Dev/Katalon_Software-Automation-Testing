@@ -24,8 +24,8 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.click(findTestObject('Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputcontinue'))
 //WebUI.setEncryptedText(findTestObject('Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_password'), 'NeRV5R5vumQAh3ll5BJijQ==')
 //WebUI.click(findTestObject('Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputsignInSubmit'))//
-WebUI.selectOptionByValue(findTestObject('Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'), 
-    'search-alias=beauty', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'), 
+    'Beauty', true)
 
 CustomKeywords.'com.qa.test.customFunctions.CheckDropDownListElementExist'(findTestObject('TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'), 
     'Baby')
