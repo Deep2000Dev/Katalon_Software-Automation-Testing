@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Amazon_SearchItem_Confirmation_TestData_CheckPoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/DDT_Test Data/Amazon_Search_InternalData</source-url>
+   </source-info>
+   <taken-date>2024-02-08T02:06:16.395+05:30</taken-date>
+   <column-names>
+      <column-name>category</column-name>
+      <column-name>Item</column-name>
+      <column-name>SearchItem Confirmation</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Electronics",
+      "checked": false
+    },
+    {
+      "value": "Speaker",
+      "checked": false
+    },
+    {
+      "value": "Search Item Confirmation",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Buttons_Test Suite_001" time="65.105" tests="2" failures="0" errors="0">
+   <testsuite name="Buttons_Test Suite_001" tests="2" failures="0" errors="0" time="65.105" skipped="0" timestamp="2024-02-02 02:52:19" hostname="dev - localhost" id="Test Suites/Buttons_Test Suite/Buttons_Test Suite_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dev/git/Katalon_Software-Automation-Testing/Reports/20240202_024851/Buttons_Test Suite/Buttons_Test Suite_001/20240202_024854"/>
+         <property name="logFiles" value="/Users/dev/git/Katalon_Software-Automation-Testing/Reports/20240202_024851/Buttons_Test Suite/Buttons_Test Suite_001/20240202_024854/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dev - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="29c36a6fb75808d3d704e6eae834b936"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Buttons/TC_Amazon_Validating_Dropdown_001" time="36.829" classname="Test Cases/Buttons/TC_Amazon_Validating_Dropdown_001" status="PASSED">
+         <system-out><![CDATA[2024-02-02 02:52:19 - [TEST_CASE][PASSED] - Test Cases/Buttons/TC_Amazon_Validating_Dropdown_001: Test Cases/Buttons/TC_Amazon_Validating_Dropdown_001
+
+2024-02-02 02:52:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 02:52:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 02:52:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 02:52:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 02:52:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+2024-02-02 02:52:21 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+2024-02-02 02:52:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=stripbooks-intl-ship", true): All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+2024-02-02 02:52:34 - [MESSAGE][PASSED] - All options with value 'search-alias=stripbooks-intl-ship' are selected in object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+2024-02-02 02:52:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords"), "Da vinci Code"): Text 'Da vinci Code' is set on object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+2024-02-02 02:52:35 - [MESSAGE][PASSED] - Text 'Da vinci Code' is set on object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'
+
+2024-02-02 02:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button")): Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+2024-02-02 02:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button' is clicked on
+
+2024-02-02 02:52:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-02 02:52:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-02 02:52:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "Electronics", false): All options with label 'Electronics' are selected in object 'Object Repository/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' 
+
+2024-02-02 02:52:45 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92' 
+
+2024-02-02 02:52:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-02 02:52:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-02 02:52:50 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), 7): All options with index in [7] are selected on object 'Object Repository/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+
+2024-02-02 02:52:51 - [MESSAGE][PASSED] - All options with index in [7] are selected on object 'Object Repository/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'
+
+2024-02-02 02:52:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-02 02:52:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-02 02:52:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 02:52:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002" time="28.207" classname="Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002" status="PASSED">
+         <system-out><![CDATA[2024-02-02 02:52:56 - [TEST_CASE][PASSED] - Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002: Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002
+
+2024-02-02 02:52:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 02:52:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 02:52:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 02:52:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 02:52:57 - [TEST_STEP][PASSED] - navigateToUrl("http://amazon.com/"): Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 02:52:59 - [MESSAGE][PASSED] - Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 02:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+2024-02-02 02:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+2024-02-02 02:53:14 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email"), "anujraaj9472@gmail.com"): Text 'anujraaj9472@gmail.com' is set on object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2024-02-02 02:53:15 - [MESSAGE][PASSED] - Text 'anujraaj9472@gmail.com' is set on object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email'
+
+2024-02-02 02:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue")): Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2024-02-02 02:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue' is clicked on
+
+2024-02-02 02:53:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Forgot your password_password"), "NeRV5R5vumQAh3ll5BJijQ=="): Text ****** has been set on object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2024-02-02 02:53:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Forgot your password_password'
+
+2024-02-02 02:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit")): Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2024-02-02 02:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit' is clicked on
+
+2024-02-02 02:53:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-02 02:53:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-02 02:53:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Your Account/span_Hello, DEEPAK"), 5): Object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Your Account/span_Hello, DEEPAK' is present
+
+2024-02-02 02:53:24 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Your Account/span_Hello, DEEPAK' is present
+
+2024-02-02 02:53:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 02:53:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-02 02:52:19 - [TEST_SUITE][PASSED] - Buttons_Test Suite_001: Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

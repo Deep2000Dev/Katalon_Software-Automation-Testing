@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_SearchItem_TestSuite_001,Chrome 121.0.0.0,,,2024-02-07 23:12:45,2024-02-07 23:13:05,20.652s,ERROR
+,,,,,,,
+Test Cases/TestListener/TC_Amazon_TL_SearchItem_001,Chrome 121.0.0.0,,,2024-02-07 23:12:49,2024-02-07 23:13:05,16.188s,ERROR
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-07 23:12:49,2024-02-07 23:12:54,4.743s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias=beauty"", true)",Chrome 121.0.0.0,,,2024-02-07 23:12:54,2024-02-07 23:12:59,5.538s,PASSED
+"com.qa.test.customFunctions.CheckDropDownListElementExist(findTestObject(""TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""Baby"")",Chrome 121.0.0.0,,,2024-02-07 23:12:59,2024-02-07 23:12:59,0.026s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-07 23:12:59,2024-02-07 23:13:05,5.837s,FAILED

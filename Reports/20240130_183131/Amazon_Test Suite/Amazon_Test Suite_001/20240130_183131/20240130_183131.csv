@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test Suite_001,Chrome 121.0.0.0,,,2024-01-30 18:31:32,2024-01-30 18:31:56,23.233s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate_Sign In_002,Chrome 121.0.0.0,,,2024-01-30 18:31:32,2024-01-30 18:31:43,10.196s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-01-30 18:31:32,2024-01-30 18:31:34,1.438s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-01-30 18:31:34,2024-01-30 18:31:36,2.089s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-01-30 18:31:36,2024-01-30 18:31:38,1.829s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/input_email""), Email)",Chrome 121.0.0.0,,,2024-01-30 18:31:38,2024-01-30 18:31:39,1.299s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,2024-01-30 18:31:39,2024-01-30 18:31:41,2.072s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/input_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-01-30 18:31:41,2024-01-30 18:31:42,0.953s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,2024-01-30 18:31:42,2024-01-30 18:31:42,0.288s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-01-30 18:31:42,2024-01-30 18:31:43,0.113s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate_Search an Item_003,Chrome 121.0.0.0,,,2024-01-30 18:31:43,2024-01-30 18:31:56,12.973s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-01-30 18:31:43,2024-01-30 18:31:43,0.698s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-01-30 18:31:43,2024-01-30 18:31:46,2.448s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""))",Chrome 121.0.0.0,,,2024-01-30 18:31:46,2024-01-30 18:31:47,0.968s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,2024-01-30 18:31:47,2024-01-30 18:31:49,2.256s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Laptop"")",Chrome 121.0.0.0,,,2024-01-30 18:31:49,2024-01-30 18:31:50,1.467s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/div_laptop""))",Chrome 121.0.0.0,,,2024-01-30 18:31:50,2024-01-30 18:31:55,4.986s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-01-30 18:31:55,2024-01-30 18:31:56,0.119s,PASSED

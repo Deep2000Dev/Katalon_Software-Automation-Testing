@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Buttons_Test Suite_001,,,,2024-02-02 02:10:20,2024-02-02 02:10:41,21.549s,FAILED
+,,,,,,,
+Test Cases/Buttons/TC_Amazon_Validating_Dropdown_001,,,,2024-02-02 02:10:20,2024-02-02 02:10:36,16.140s,FAILED
+"openBrowser("""")",,,,2024-02-02 02:10:20,2024-02-02 02:10:21,0.802s,FAILED
+"navigateToUrl(""https://www.amazon.com/"")",,,,2024-02-02 02:10:21,2024-02-02 02:10:21,0.012s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",,,,2024-02-02 02:10:21,2024-02-02 02:10:21,0.046s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci Code"")",,,,2024-02-02 02:10:21,2024-02-02 02:10:21,0.017s,FAILED
+"click(findTestObject(""Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",,,,2024-02-02 02:10:21,2024-02-02 02:10:21,0.025s,FAILED
+delay(5),,,,2024-02-02 02:10:21,2024-02-02 02:10:26,5.021s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Electronics"", false)",,,,2024-02-02 02:10:26,2024-02-02 02:10:26,0.040s,FAILED
+delay(5),,,,2024-02-02 02:10:26,2024-02-02 02:10:31,5.012s,PASSED
+"selectOptionByIndex(findTestObject(""Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), 7)",,,,2024-02-02 02:10:31,2024-02-02 02:10:31,0.035s,FAILED
+delay(5),,,,2024-02-02 02:10:31,2024-02-02 02:10:36,5.009s,PASSED
+closeBrowser(),,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.012s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002,,,,2024-02-02 02:10:36,2024-02-02 02:10:41,5.337s,FAILED
+"openBrowser("""")",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.155s,FAILED
+"navigateToUrl(""http://amazon.com/"")",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.008s,FAILED
+"click(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.020s,FAILED
+"setText(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""anujraaj9472@gmail.com"")",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.011s,FAILED
+"click(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.010s,FAILED
+"setEncryptedText(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.018s,FAILED
+"click(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",,,,2024-02-02 02:10:36,2024-02-02 02:10:36,0.010s,FAILED
+delay(5),,,,2024-02-02 02:10:36,2024-02-02 02:10:41,5.019s,PASSED
+"verifyElementPresent(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Your Account/span_Hello, DEEPAK""), 5)",,,,2024-02-02 02:10:41,2024-02-02 02:10:41,0.048s,FAILED
+closeBrowser(),,,,2024-02-02 02:10:41,2024-02-02 02:10:41,0.003s,PASSED

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TL_Amazon_SearchItem_TestSuite_001" time="39.099" tests="1" failures="0" errors="0">
+   <testsuite name="TL_Amazon_SearchItem_TestSuite_001" tests="1" failures="0" errors="0" time="39.099" skipped="0" timestamp="2024-02-08 02:10:13" hostname="dev - localhost" id="Test Suites/Amazon_TL_TestSuite/TL_Amazon_SearchItem_TestSuite_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dev/git/Katalon_Software-Automation-Testing/Reports/20240208_021012/Amazon_TL_TestSuite/TL_Amazon_SearchItem_TestSuite_001/20240208_021012"/>
+         <property name="logFiles" value="/Users/dev/git/Katalon_Software-Automation-Testing/Reports/20240208_021012/Amazon_TL_TestSuite/TL_Amazon_SearchItem_TestSuite_001/20240208_021012/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dev - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="9781d95c07bfe1d5e4f73626eae808bf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TestListener/TC_Amazon_TL_SearchItem_001" time="26.394" classname="Test Cases/TestListener/TC_Amazon_TL_SearchItem_001" status="PASSED">
+         <system-out><![CDATA[2024-02-08 02:10:26 - [TEST_CASE][PASSED] - Test Cases/TestListener/TC_Amazon_TL_SearchItem_001: Test Cases/TestListener/TC_Amazon_TL_SearchItem_001
+
+2024-02-08 02:10:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+2024-02-08 02:10:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_email"), "anujraaj9472@gmail.com"): Text 'anujraaj9472@gmail.com' is set on object 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_email'
+
+2024-02-08 02:10:28 - [MESSAGE][PASSED] - Text 'anujraaj9472@gmail.com' is set on object 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_email'
+
+2024-02-08 02:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputcontinue")): Object: 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+2024-02-08 02:10:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputcontinue' is clicked on
+
+2024-02-08 02:10:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_password"), "NeRV5R5vumQAh3ll5BJijQ=="): Text ****** has been set on object 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_password'
+
+2024-02-08 02:10:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/input_password'
+
+2024-02-08 02:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputsignInSubmit")): Object: 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+2024-02-08 02:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Amazon_Page_OR/Page_Amazon Sign In/inputsignInSubmit' is clicked on
+
+2024-02-08 02:10:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "search-alias=beauty", true): All options with value 'search-alias=beauty' are selected in object 'Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+2024-02-08 02:10:36 - [MESSAGE][PASSED] - All options with value 'search-alias=beauty' are selected in object 'Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89'  using regular expression
+
+2024-02-08 02:10:36 - [TEST_STEP][PASSED] - com.qa.test.customFunctions.CheckDropDownListElementExist(findTestObject("TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89"), "Baby"): com.qa.test.customFunctions.CheckDropDownListElementExist is PASSED
+
+2024-02-08 02:10:37 - [MESSAGE][PASSED] - com.qa.test.customFunctions.CheckDropDownListElementExist is PASSED
+
+2024-02-08 02:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords"), "Lipstick"): Text 'Lipstick' is set on object 'Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+2024-02-08 02:10:38 - [MESSAGE][PASSED] - Text 'Lipstick' is set on object 'Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'
+
+2024-02-08 02:10:38 - [TEST_STEP][PASSED] - click(findTestObject("TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button")): Object: 'Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+2024-02-08 02:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button' is clicked on
+
+2024-02-08 02:10:45 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/CheckPoints_TestData/Amazon_SearchItem_Confirmation_TestData_CheckPoint"), false): Checkpoint data and Source data are matched
+
+2024-02-08 02:10:45 - [MESSAGE][PASSED] - Checkpoint data and Source data are matched
+
+2024-02-08 02:10:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object: 'Object Repository/TL_Amazon_Page_OR/Page_Your Account/span_Sign Out' is clicked on
+
+2024-02-08 02:10:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2024-02-08 02:10:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2024-02-08 02:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TL_Amazon_Page_OR/Page_Your Account/span_Sign Out")): Object: 'Object Repository/TL_Amazon_Page_OR/Page_Your Account/span_Sign Out' is clicked on
+
+2024-02-08 02:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TL_Amazon_Page_OR/Page_Your Account/span_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-08 02:10:13 - [TEST_SUITE][PASSED] - TL_Amazon_SearchItem_TestSuite_001: Test Cases/TestListener/TC_Amazon_TL_SearchItem_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT_Amazon_Category_Validation_Test Suite,Chrome 121.0.0.0,,,2024-02-02 04:34:38,2024-02-02 04:36:11,1m - 33.315s,FAILED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:34:38,2024-02-02 04:34:49,11.092s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:34:38,2024-02-02 04:34:40,2.486s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:34:40,2024-02-02 04:34:43,3.112s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:34:43,2024-02-02 04:34:44,0.880s,PASSED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:34:44,2024-02-02 04:34:45,1.078s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:34:45,2024-02-02 04:34:49,3.299s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:34:49,2024-02-02 04:34:49,0.127s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:34:49,2024-02-02 04:35:01,11.863s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:34:49,2024-02-02 04:34:49,0.668s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:34:49,2024-02-02 04:34:52,2.910s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:34:52,2024-02-02 04:34:53,1.038s,PASSED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:34:53,2024-02-02 04:34:55,1.345s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:34:55,2024-02-02 04:35:00,5.765s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:35:00,2024-02-02 04:35:01,0.121s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:35:01,2024-02-02 04:35:11,10.656s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:35:01,2024-02-02 04:35:01,0.636s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:35:01,2024-02-02 04:35:04,2.800s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:35:04,2024-02-02 04:35:05,0.860s,PASSED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:35:05,2024-02-02 04:35:07,1.710s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:35:07,2024-02-02 04:35:11,4.491s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:35:11,2024-02-02 04:35:11,0.143s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:35:11,2024-02-02 04:35:22,11.031s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:35:11,2024-02-02 04:35:12,0.757s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:35:12,2024-02-02 04:35:15,2.470s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:35:15,2024-02-02 04:35:15,0.927s,PASSED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:35:15,2024-02-02 04:35:17,1.363s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:35:17,2024-02-02 04:35:22,5.349s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:35:22,2024-02-02 04:35:22,0.147s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:35:22,2024-02-02 04:35:32,9.554s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:35:22,2024-02-02 04:35:23,0.661s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:35:23,2024-02-02 04:35:26,2.691s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:35:26,2024-02-02 04:35:27,1.093s,PASSED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:35:27,2024-02-02 04:35:28,1.213s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:35:28,2024-02-02 04:35:32,3.724s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:35:32,2024-02-02 04:35:32,0.155s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:35:32,2024-02-02 04:35:42,10.081s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:35:32,2024-02-02 04:35:33,0.653s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:35:33,2024-02-02 04:35:36,2.949s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:35:36,2024-02-02 04:35:37,1.332s,FAILED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:35:37,2024-02-02 04:35:39,1.833s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:35:39,2024-02-02 04:35:42,3.186s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:35:42,2024-02-02 04:35:42,0.112s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:35:42,2024-02-02 04:35:52,10.108s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:35:42,2024-02-02 04:35:43,0.678s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:35:43,2024-02-02 04:35:46,3.278s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:35:46,2024-02-02 04:35:48,2.274s,FAILED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:35:48,2024-02-02 04:35:49,0.855s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:35:49,2024-02-02 04:35:52,2.903s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:35:52,2024-02-02 04:35:52,0.105s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:35:52,2024-02-02 04:36:02,9.618s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:35:52,2024-02-02 04:35:53,0.658s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:35:53,2024-02-02 04:35:56,3.141s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:35:56,2024-02-02 04:35:57,1.327s,FAILED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:35:57,2024-02-02 04:35:59,1.493s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:35:59,2024-02-02 04:36:02,2.870s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:36:02,2024-02-02 04:36:02,0.116s,PASSED
+,,,,,,,
+Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001,Chrome 121.0.0.0,,,2024-02-02 04:36:02,2024-02-02 04:36:11,9.118s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 04:36:02,2024-02-02 04:36:02,0.657s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 04:36:02,2024-02-02 04:36:05,2.932s,PASSED
+"selectOptionByLabel(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement""), category, false)",Chrome 121.0.0.0,,,2024-02-02 04:36:05,2024-02-02 04:36:07,1.283s,FAILED
+"setText(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), Item)",Chrome 121.0.0.0,,,2024-02-02 04:36:07,2024-02-02 04:36:08,1.518s,PASSED
+"click(findTestObject(""DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 04:36:08,2024-02-02 04:36:11,2.610s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 04:36:11,2024-02-02 04:36:11,0.107s,PASSED

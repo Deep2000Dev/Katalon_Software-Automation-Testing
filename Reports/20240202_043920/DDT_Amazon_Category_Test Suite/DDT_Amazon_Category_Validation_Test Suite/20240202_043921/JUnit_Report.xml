@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DDT_Amazon_Category_Validation_Test Suite" time="77.168" tests="5" failures="0" errors="0">
+   <testsuite name="DDT_Amazon_Category_Validation_Test Suite" tests="5" failures="0" errors="0" time="77.168" skipped="0" timestamp="2024-02-02 04:39:23" hostname="dev - localhost" id="Test Suites/DDT_Amazon_Category_Test Suite/DDT_Amazon_Category_Validation_Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dev/git/Katalon_Software-Automation-Testing/Reports/20240202_043920/DDT_Amazon_Category_Test Suite/DDT_Amazon_Category_Validation_Test Suite/20240202_043921"/>
+         <property name="logFiles" value="/Users/dev/git/Katalon_Software-Automation-Testing/Reports/20240202_043920/DDT_Amazon_Category_Test Suite/DDT_Amazon_Category_Validation_Test Suite/20240202_043921/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dev - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="5540206d4b7fa8ca83541c09d2e0a1fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" time="23.226" classname="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" status="PASSED">
+         <system-out><![CDATA[2024-02-02 04:39:23 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001: Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001
+
+2024-02-02 04:39:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 04:39:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 04:39:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 04:39:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 04:39:25 - [TEST_STEP][PASSED] - navigateToUrl("http://amazon.com/"): Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:39:27 - [MESSAGE][PASSED] - Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:39:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement"), category, false): All options with label 'Books' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:39:41 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:39:41 - [TEST_STEP][PASSED] - setText(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), Item): Text 'Da Vinci Code' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:39:42 - [MESSAGE][PASSED] - Text 'Da Vinci Code' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:39:42 - [TEST_STEP][PASSED] - click(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:39:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 04:39:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" time="11.043" classname="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" status="PASSED">
+         <system-out><![CDATA[2024-02-02 04:39:46 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001: Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001
+
+2024-02-02 04:39:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 04:39:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 04:39:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 04:39:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 04:39:47 - [TEST_STEP][PASSED] - navigateToUrl("http://amazon.com/"): Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:39:50 - [MESSAGE][PASSED] - Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:39:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement"), category, false): All options with label 'Electronics' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:39:51 - [MESSAGE][PASSED] - All options with label 'Electronics' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:39:51 - [TEST_STEP][PASSED] - setText(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), Item): Text 'Laptop' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:39:52 - [MESSAGE][PASSED] - Text 'Laptop' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:39:52 - [TEST_STEP][PASSED] - click(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:39:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 04:39:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" time="21.372" classname="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" status="PASSED">
+         <system-out><![CDATA[2024-02-02 04:39:57 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001: Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001
+
+2024-02-02 04:39:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 04:39:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 04:39:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 04:39:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 04:39:58 - [TEST_STEP][PASSED] - navigateToUrl("http://amazon.com/"): Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:40:00 - [MESSAGE][PASSED] - Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:40:00 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement"), category, false): All options with label 'Luggage' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:40:13 - [MESSAGE][PASSED] - All options with label 'Luggage' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:40:13 - [TEST_STEP][PASSED] - setText(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), Item): Text 'Trolley' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:40:15 - [MESSAGE][PASSED] - Text 'Trolley' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:40:15 - [TEST_STEP][PASSED] - click(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:40:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 04:40:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" time="11.542" classname="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" status="PASSED">
+         <system-out><![CDATA[2024-02-02 04:40:19 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001: Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001
+
+2024-02-02 04:40:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 04:40:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 04:40:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 04:40:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 04:40:19 - [TEST_STEP][PASSED] - navigateToUrl("http://amazon.com/"): Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:40:22 - [MESSAGE][PASSED] - Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:40:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement"), category, false): All options with label 'Baby' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:40:23 - [MESSAGE][PASSED] - All options with label 'Baby' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:40:23 - [TEST_STEP][PASSED] - setText(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), Item): Text 'Walker' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:40:25 - [MESSAGE][PASSED] - Text 'Walker' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:40:25 - [TEST_STEP][PASSED] - click(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:40:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 04:40:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" time="9.836" classname="Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001" status="PASSED">
+         <system-out><![CDATA[2024-02-02 04:40:30 - [TEST_CASE][PASSED] - Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001: Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001
+
+2024-02-02 04:40:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-02-02 04:40:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-02-02 04:40:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-02-02 04:40:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-02-02 04:40:31 - [TEST_STEP][PASSED] - navigateToUrl("http://amazon.com/"): Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:40:34 - [MESSAGE][PASSED] - Navigate to 'http://amazon.com/' successfully
+
+2024-02-02 04:40:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement"), category, false): All options with label 'Home & Kitchen' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:40:35 - [MESSAGE][PASSED] - All options with label 'Home & Kitchen' are selected in object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement' 
+
+2024-02-02 04:40:35 - [TEST_STEP][PASSED] - setText(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), Item): Text 'Glass' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:40:37 - [MESSAGE][PASSED] - Text 'Glass' is set on object 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+2024-02-02 04:40:37 - [TEST_STEP][PASSED] - click(findTestObject("DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Category_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+2024-02-02 04:40:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-02-02 04:40:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-02 04:39:23 - [TEST_SUITE][PASSED] - DDT_Amazon_Category_Validation_Test Suite: Test Cases/Data_Driven_Testing/TC_Amazon_Validating_Category_Excel_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

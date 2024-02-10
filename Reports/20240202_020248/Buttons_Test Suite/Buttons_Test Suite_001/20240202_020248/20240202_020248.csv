@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Buttons_Test Suite_001,Chrome 121.0.0.0,,,2024-02-02 02:02:49,2024-02-02 02:03:34,44.826s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_Amazon_Validating_Dropdown_001,Chrome 121.0.0.0,,,2024-02-02 02:02:49,2024-02-02 02:03:18,29.000s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:02:50,2024-02-02 02:02:52,2.468s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:02:52,2024-02-02 02:02:54,2.165s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,2024-02-02 02:02:54,2024-02-02 02:02:55,1.225s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Da vinci Code"")",Chrome 121.0.0.0,,,2024-02-02 02:02:55,2024-02-02 02:02:57,1.720s,PASSED
+"click(findTestObject(""Object Repository/Amazon_pages_Validating_Dropdown_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-02 02:02:57,2024-02-02 02:03:02,4.749s,PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-02 02:03:02,2024-02-02 02:03:07,5.016s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""Electronics"", false)",Chrome 121.0.0.0,,,2024-02-02 02:03:07,2024-02-02 02:03:07,0.535s,PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-02 02:03:07,2024-02-02 02:03:12,5.012s,PASSED
+"selectOptionByIndex(findTestObject(""Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), 7)",Chrome 121.0.0.0,,,2024-02-02 02:03:12,2024-02-02 02:03:13,0.824s,PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-02 02:03:13,2024-02-02 02:03:18,5.010s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:03:18,2024-02-02 02:03:18,0.157s,PASSED
+,,,,,,,
+Test Cases/Buttons/TC_Amazon_Validatinng_Input Search_Button_002,Chrome 121.0.0.0,,,2024-02-02 02:03:18,2024-02-02 02:03:34,15.751s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:03:19,2024-02-02 02:03:19,0.709s,PASSED
+"navigateToUrl(""http://amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:03:19,2024-02-02 02:03:23,3.369s,PASSED
+"click(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-02 02:03:23,2024-02-02 02:03:25,1.998s,PASSED
+"setText(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Email or mobile phone number_email""), ""anujraaj9472@gmail.com"")",Chrome 121.0.0.0,,,2024-02-02 02:03:25,2024-02-02 02:03:26,1.396s,PASSED
+"click(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your email or mobile phone number_continue""))",Chrome 121.0.0.0,,,2024-02-02 02:03:26,2024-02-02 02:03:27,1.336s,PASSED
+"setEncryptedText(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Forgot your password_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-02-02 02:03:27,2024-02-02 02:03:28,0.967s,PASSED
+"click(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,2024-02-02 02:03:28,2024-02-02 02:03:29,0.289s,PASSED
+delay(5),Chrome 121.0.0.0,,,2024-02-02 02:03:29,2024-02-02 02:03:34,5.013s,PASSED
+"verifyElementPresent(findTestObject(""Amazon_pages_Validating_Dropdown_OR/Amazon_Pages_Validating_Buttons_OR/Page_Your Account/span_Hello, DEEPAK""), 5)",Chrome 121.0.0.0,,,2024-02-02 02:03:34,2024-02-02 02:03:34,0.489s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:03:34,2024-02-02 02:03:34,0.152s,PASSED

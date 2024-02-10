@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint_Excel_001</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>/Users/dev/Downloads/Test_Case Data 3.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>Sheet1</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2024-02-08T01:54:12.196+05:30</taken-date>
+   <column-names>
+      <column-name>category</column-name>
+      <column-name>Item</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Books",
+      "checked": true
+    },
+    {
+      "value": "Da Vinci Code",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Electronics",
+      "checked": true
+    },
+    {
+      "value": "Laptop",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Luggage",
+      "checked": true
+    },
+    {
+      "value": "Trolley",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Baby",
+      "checked": true
+    },
+    {
+      "value": "Walker",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Home \u0026 Kitchen",
+      "checked": true
+    },
+    {
+      "value": "Glass",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

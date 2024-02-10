@@ -6,6 +6,7 @@
    <UUID>7bfb86a3-2d2d-4ac8-a923-a9b979c4db8c</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/dev/git/Katalon_Software-Automation-Testing/Katalon_Software-Automation-Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

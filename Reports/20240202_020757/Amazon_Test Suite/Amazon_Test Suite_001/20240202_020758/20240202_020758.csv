@@ -1,0 +1,69 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Test Suite_001,Chrome 121.0.0.0,,,2024-02-02 02:08:03,2024-02-02 02:10:18,2m - 15.002s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate _Register as a new User_001,Chrome 121.0.0.0,,,2024-02-02 02:08:03,2024-02-02 02:08:47,43.725s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:08:03,2024-02-02 02:08:11,7.361s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:08:11,2024-02-02 02:08:13,2.364s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-02 02:08:13,2024-02-02 02:08:15,1.780s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 121.0.0.0,,,2024-02-02 02:08:15,2024-02-02 02:08:17,2.206s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon Registration/input_customerName""), ""DEEPAK KUMAR"")",Chrome 121.0.0.0,,,2024-02-02 02:08:17,2024-02-02 02:08:18,1.302s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon Registration/input_email""), ""anujraaj9472@gmail.com"")",Chrome 121.0.0.0,,,2024-02-02 02:08:18,2024-02-02 02:08:19,0.538s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon Registration/input_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-02-02 02:08:19,2024-02-02 02:08:19,0.305s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon Registration/input_passwordCheck""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-02-02 02:08:19,2024-02-02 02:08:20,0.498s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Amazon Registration/inputcontinue""))",Chrome 121.0.0.0,,,2024-02-02 02:08:20,2024-02-02 02:08:21,1.788s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/input_code""), ""487725"")",Chrome 121.0.0.0,,,2024-02-02 02:08:21,2024-02-02 02:08:46,25.184s,FAILED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/input_a-button-input""))",Chrome 121.0.0.0,,,2024-02-02 02:08:46,2024-02-02 02:08:47,0.021s,FAILED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/span_US 1""))",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.017s,FAILED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/a_India 91""))",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.018s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/input_cvf_phone_num""), ""9905496045"")",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.017s,FAILED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/input_cvf_action""))",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.018s,FAILED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/input_code_1""), ""257498"")",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.023s,FAILED
+"click(findTestObject(""Object Repository/Amazon_Pages_Register new User_OR/Page_Authentication required/input_cvf_action""))",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.020s,FAILED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:47,0.149s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate_Sign In_002,Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:09:00,13.260s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:08:47,2024-02-02 02:08:48,1.044s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:08:48,2024-02-02 02:08:51,3.008s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-02 02:08:51,2024-02-02 02:08:54,3.351s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/input_email""), Email)",Chrome 121.0.0.0,,,2024-02-02 02:08:54,2024-02-02 02:08:56,1.820s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,2024-02-02 02:08:56,2024-02-02 02:08:58,2.311s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/input_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-02-02 02:08:58,2024-02-02 02:08:59,1.041s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign In_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,2024-02-02 02:08:59,2024-02-02 02:09:00,0.508s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:09:00,2024-02-02 02:09:00,0.113s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate_Search an Item_003,Chrome 121.0.0.0,,,2024-02-02 02:09:00,2024-02-02 02:09:24,24.464s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:09:00,2024-02-02 02:09:01,0.657s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:09:01,2024-02-02 02:09:02,1.264s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""))",Chrome 121.0.0.0,,,2024-02-02 02:09:02,2024-02-02 02:09:17,14.760s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,2024-02-02 02:09:17,2024-02-02 02:09:19,1.920s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""Laptop"")",Chrome 121.0.0.0,,,2024-02-02 02:09:19,2024-02-02 02:09:20,1.030s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Search Item_OR/Page_Amazon.com. Spend less. Smile more/div_laptop""))",Chrome 121.0.0.0,,,2024-02-02 02:09:20,2024-02-02 02:09:24,4.671s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:09:24,2024-02-02 02:09:24,0.123s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate_Adding an item to cart_004,Chrome 121.0.0.0,,,2024-02-02 02:09:25,2024-02-02 02:10:00,35.721s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:09:25,2024-02-02 02:09:25,0.682s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:09:25,2024-02-02 02:09:28,3.023s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-02 02:09:28,2024-02-02 02:09:31,2.296s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon Sign-In/input_email""), ""anujraaj9472@gmail.com"")",Chrome 121.0.0.0,,,2024-02-02 02:09:31,2024-02-02 02:09:32,1.497s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,2024-02-02 02:09:32,2024-02-02 02:09:33,1.318s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon Sign-In/input_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-02-02 02:09:33,2024-02-02 02:09:34,1.047s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,2024-02-02 02:09:34,2024-02-02 02:09:35,0.284s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=electronics-intl-ship"", true)",Chrome 121.0.0.0,,,2024-02-02 02:09:35,2024-02-02 02:09:38,3.392s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""laptop"")",Chrome 121.0.0.0,,,2024-02-02 02:09:38,2024-02-02 02:09:39,0.971s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com. Spend less. Smile more/span_gaming""))",Chrome 121.0.0.0,,,2024-02-02 02:09:39,2024-02-02 02:09:45,6.386s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com  gaming laptop/img_s-image""))",Chrome 121.0.0.0,,,2024-02-02 02:09:45,2024-02-02 02:09:56,10.194s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com Bmax Laptop 15.6, 16GB DDR4_ae0c02/i_a-icon a-icon-checkbox""))",Chrome 121.0.0.0,,,2024-02-02 02:09:56,2024-02-02 02:09:56,0.799s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Adding to Cart_OR/Page_Amazon.com Bmax Laptop 15.6, 16GB DDR4_ae0c02/input_submit.addToCart""))",Chrome 121.0.0.0,,,2024-02-02 02:09:56,2024-02-02 02:10:00,3.611s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:10:00,2024-02-02 02:10:00,0.187s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Home_Validate_Sign Out_005,Chrome 121.0.0.0,,,2024-02-02 02:10:00,2024-02-02 02:10:18,17.758s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-02 02:10:00,2024-02-02 02:10:01,0.696s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,2024-02-02 02:10:01,2024-02-02 02:10:03,1.991s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign Out_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-02 02:10:03,2024-02-02 02:10:05,1.648s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Pages_Sign Out_OR/Page_Amazon Sign-In/input_email""), ""anujraaj9472@gmail.com"")",Chrome 121.0.0.0,,,2024-02-02 02:10:05,2024-02-02 02:10:06,1.589s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign Out_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,2024-02-02 02:10:06,2024-02-02 02:10:08,1.358s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Pages_Sign Out_OR/Page_Amazon Sign-In/input_password""), ""NeRV5R5vumQAh3ll5BJijQ=="")",Chrome 121.0.0.0,,,2024-02-02 02:10:08,2024-02-02 02:10:09,1.045s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign Out_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,2024-02-02 02:10:09,2024-02-02 02:10:09,0.398s,PASSED
+"waitForElementVisible(findTestObject(""Amazon_Pages_Sign Out_OR/Page_Amazon.com. Spend less. Smile more/span_Sign Out""), 10)",Chrome 121.0.0.0,,,2024-02-02 02:10:09,2024-02-02 02:10:13,4.418s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Pages_Sign Out_OR/Page_Amazon.com. Spend less. Smile more/span_Sign Out""))",Chrome 121.0.0.0,,,2024-02-02 02:10:13,2024-02-02 02:10:18,4.448s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-02 02:10:18,2024-02-02 02:10:18,0.137s,PASSED

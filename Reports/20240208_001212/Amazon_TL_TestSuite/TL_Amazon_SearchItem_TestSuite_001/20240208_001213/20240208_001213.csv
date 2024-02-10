@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_SearchItem_TestSuite_001,Chrome 121.0.0.0,,,2024-02-08 00:12:15,2024-02-08 00:12:41,26.117s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_Amazon_TL_SearchItem_001,Chrome 121.0.0.0,,,2024-02-08 00:12:19,2024-02-08 00:12:41,21.489s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-08 00:12:19,2024-02-08 00:12:24,4.656s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias=beauty"", true)",Chrome 121.0.0.0,,,2024-02-08 00:12:24,2024-02-08 00:12:29,5.207s,PASSED
+"com.qa.test.customFunctions.CheckDropDownListElementExist(findTestObject(""TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""Baby"")",Chrome 121.0.0.0,,,2024-02-08 00:12:29,2024-02-08 00:12:30,0.971s,PASSED
+"setText(findTestObject(""Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""Lipstick"")",Chrome 121.0.0.0,,,2024-02-08 00:12:30,2024-02-08 00:12:31,0.495s,PASSED
+"click(findTestObject(""TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-08 00:12:31,2024-02-08 00:12:35,4.221s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-08 00:12:35,2024-02-08 00:12:41,5.891s,FAILED

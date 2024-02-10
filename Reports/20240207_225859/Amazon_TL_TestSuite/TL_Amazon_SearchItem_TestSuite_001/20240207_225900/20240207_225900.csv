@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_Amazon_SearchItem_TestSuite_001,Chrome 121.0.0.0,,,2024-02-07 22:59:02,2024-02-07 22:59:29,27.365s,PASSED
+,,,,,,,
+Test Cases/TestListener/TC_Amazon_TL_SearchItem_001,Chrome 121.0.0.0,,,2024-02-07 22:59:08,2024-02-07 22:59:29,21.320s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-07 22:59:08,2024-02-07 22:59:13,4.464s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _59be89""), ""search-alias=beauty"", true)",Chrome 121.0.0.0,,,2024-02-07 22:59:13,2024-02-07 22:59:17,4.910s,PASSED
+"setText(findTestObject(""Object Repository/TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords""), ""Lipstick"")",Chrome 121.0.0.0,,,2024-02-07 22:59:17,2024-02-07 22:59:18,0.817s,PASSED
+"click(findTestObject(""TL_Amazon_Page_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button""))",Chrome 121.0.0.0,,,2024-02-07 22:59:18,2024-02-07 22:59:23,4.356s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-07 22:59:23,2024-02-07 22:59:29,6.735s,PASSED
